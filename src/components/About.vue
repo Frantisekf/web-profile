@@ -1,6 +1,6 @@
 <template>
   <section id="about">     
-    <container style="padding-top: 6em">
+    <container width="1260px" style="padding-top: 6em">
       <grid horizontal="center">
         <grid-item size='1/1'>
         <div class="about--header">

@@ -107,9 +107,7 @@ export default {
 .header {
   padding: 2em 2em;
   font-size: 42px;
-  font-weight: 500;
-
-  
+  font-weight: 500; 
 }
 
 .portfolio--tab {

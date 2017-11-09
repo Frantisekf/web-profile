@@ -1,18 +1,28 @@
 {
     "connect": [
       {
-        "name": "Facebook",
-        "icon": "facebook",
+        "name": "Email",
+        "icon": "email",
         "url": "#"
-      },
+      },      
       {
         "name": "LinkedIn",
         "icon": "linkedin",
         "url": "#"
       },
       {
-        "name": "Twitter",
-        "icon": "twitter",
+        "name": "Github",
+        "icon": "github",
+        "url": "#"
+      },
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "url": "#"
+      },
+      {
+        "name": "Instagram",
+        "icon": "instagram",
         "url": "#"
       }
     ]

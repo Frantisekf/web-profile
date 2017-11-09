@@ -1,0 +1,19 @@
+{
+    "connect": [
+      {
+        "name": "Facebook",
+        "icon": "facebook",
+        "url": "#"
+      },
+      {
+        "name": "LinkedIn",
+        "icon": "linkedin",
+        "url": "#"
+      },
+      {
+        "name": "Twitter",
+        "icon": "twitter",
+        "url": "#"
+      }
+    ]
+}

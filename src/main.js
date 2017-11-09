@@ -4,6 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import VueFractionGrid from 'vue-fraction-grid'
+Vue.use(VueFractionGrid, {
+  container: '1260px',
+  gutter: '0',
+  approach: 'desktop-first',
+  breakpoints: {
+    compact: '768px'
+  }
+})
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

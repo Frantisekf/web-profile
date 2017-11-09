@@ -32,11 +32,13 @@
 
 <script>
 export default {
-  name: 'About'
+  name: 'about'
 }
 </script>
 
 <style scoped lang="scss">
+
+
 .about-header {  
     text-align: center;  
 }

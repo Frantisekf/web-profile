@@ -114,7 +114,7 @@ export default {
 
 .portfolio--tab {
   overflow: hidden;
-  width: 640;
+  width: 640px;
   height: 420px;
 }
 .portfolio--tab__img {

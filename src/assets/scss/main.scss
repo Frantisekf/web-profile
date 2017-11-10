@@ -1,10 +1,13 @@
 
-//@import 'helpers';
+
 @import url('https://rsms.me/inter/inter-ui.css');
+@import 'helpers';
+@import 'icons/style';
+@import 'colors';
 
 html,
 body {
-  font-family: 'Inter UI', sans-serif;
+  font-family: 'Inter UI', Roboto,sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -14,9 +17,18 @@ body {
 
 h1 {
   text-align: center;
+  font-size: 36px;
 }
-
 p {
   text-align: center;
+  font-size: 16px
+}
+a {
+  text-decoration: none;
+  color: black;
+    
+  &:hover, &:focus {
+    color: #ACACAC;
+  }
 }
 

@@ -3,7 +3,7 @@
 <div class="portfolio--wrapper"> 
   <container style="padding-top: 8em">    
     <grid  vertical="center"  :rwd="{compact: 'stack'}">
-      <transition  name='fade' mode="out-in" appear >
+      
         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
           <div class="portfolio--tab">
             <router-link to="project">
@@ -13,8 +13,7 @@
             </router-link>            
           </div>
         </grid-item>
-      </transition>
-      <transition  name='slide-fade' mode="out-in" appear >
+      
          <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
@@ -24,7 +23,7 @@
           </div>
          </router-link>
         </grid-item>
-      </transition>
+     
          <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
@@ -159,12 +158,5 @@ export default {
   transform: scale(1.1);
 }
 
-// Transitions & Animations
-//-------------------------------
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 1s
-}
-.fade-enter, .fade-leave-to {
-  opacity: .3
-}
+
 </style>

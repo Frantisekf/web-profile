@@ -6,8 +6,8 @@ import router from './router'
 
 import VueFractionGrid from 'vue-fraction-grid'
 Vue.use(VueFractionGrid, {
-  container: '1920px',
-  gutter: '0',
+  container: '80%',
+  gutter: '26px',
   approach: 'desktop-first',
   breakpoints: {
     compact: '768px'

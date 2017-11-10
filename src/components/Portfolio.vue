@@ -35,7 +35,7 @@
         </grid-item>
     </grid >
      <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
           <div class="portfolio--tab">
             <router-link to="#">
             <div class="portfolio--tab__img">
@@ -44,7 +44,7 @@
             </router-link>            
           </div>
         </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
             <div class="portfolio--tab__img">              
@@ -53,7 +53,7 @@
           </div>
          </router-link>
         </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
             <div class="portfolio--tab__img">          
@@ -64,7 +64,7 @@
         </grid-item>
     </grid >
      <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
           <div class="portfolio--tab">
             <router-link to="#">
             <div class="portfolio--tab__img">
@@ -73,7 +73,7 @@
             </router-link>            
           </div>
         </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
             <div class="portfolio--tab__img">              
@@ -82,7 +82,7 @@
           </div>
          </router-link>
         </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
             <div class="portfolio--tab__img">          
@@ -93,7 +93,7 @@
         </grid-item>
     </grid >
      <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
           <div class="portfolio--tab">
             <router-link to="#">
             <div class="portfolio--tab__img">
@@ -102,7 +102,7 @@
             </router-link>            
           </div>
         </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
+         <grid-item size='1/3' :rwd="{ compact: '/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
             <div class="portfolio--tab__img">              
@@ -148,7 +148,7 @@ export default {
   background-image: url("/static/img/next.jpg");
   background-size: cover;
   background-position: center;
-  //width: 100%;
+  width: 100%;
   height: 100%;
   transition: 1s ease-out;
 }

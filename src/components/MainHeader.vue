@@ -3,7 +3,7 @@
   <nav id="navigation">
       <ul>
           <li class="nav--item "><router-link to="About">ABOUT</router-link></li>
-          <li><router-link to="/">CONTACT</router-link></li>        
+          <li><router-link to="Contact">CONTACT</router-link></li>        
       </ul>      
       <router-view class="view"></router-view>
   </nav>

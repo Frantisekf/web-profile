@@ -11,6 +11,7 @@ import MainHeader from './MainHeader.vue'
 import Portfolio from './Portfolio.vue'
 import About from './About.vue'
 import Project from './projects/Project.vue'
+import Contact from './Contact.vue'
 
 export default {
   name: 'content',
@@ -19,7 +20,8 @@ export default {
     MainHeader,
     Portfolio,
     About,
-    Project
+    Project,
+    Contact
 
   }
 }

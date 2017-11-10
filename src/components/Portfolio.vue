@@ -112,8 +112,8 @@ export default {
 
 .portfolio--tab {
   overflow: hidden;
-  width: 640px;
-  height: 420px;
+  width: 450px;
+  height: 300px;
 }
 .portfolio--tab__img {
   background-image: url("/static/img/next.jpg");

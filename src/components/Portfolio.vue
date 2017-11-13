@@ -1,7 +1,6 @@
 <template>
-
 <div class="portfolio--wrapper"> 
-  <container style="padding-top: 8em">    
+  <container style="padding-top: 8em" class="grid-container">    
     <grid  vertical="center"  :rwd="{compact: 'stack'}">
       
         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
@@ -23,7 +22,7 @@
           </div>
          </router-link>
         </grid-item>
-     
+                        
          <grid-item size='1/3' :rwd="{ compact: '3/3'}">
          <router-link to="#">
           <div class="portfolio--tab">
@@ -34,96 +33,9 @@
          </router-link>
         </grid-item>
     </grid >
-     <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-          <div class="portfolio--tab">
-            <router-link to="#">
-            <div class="portfolio--tab__img">
-              
-            </div>
-            </router-link>            
-          </div>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">              
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">          
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-    </grid >
-     <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-          <div class="portfolio--tab">
-            <router-link to="#">
-            <div class="portfolio--tab__img">
-              
-            </div>
-            </router-link>            
-          </div>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">              
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">          
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-    </grid >
-     <grid style="padding-top: 2em"   vertical="center"  :rwd="{compact: 'stack'}">
-        <grid-item size='1/3' :rwd="{ compact: '3/3'}">
-          <div class="portfolio--tab">
-            <router-link to="#">
-            <div class="portfolio--tab__img">
-              
-            </div>
-            </router-link>            
-          </div>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">              
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-         <grid-item size='1/3' :rwd="{ compact: '2/3'}">
-         <router-link to="#">
-          <div class="portfolio--tab">
-            <div class="portfolio--tab__img">          
-              
-            </div>            
-          </div>
-         </router-link>
-        </grid-item>
-    </grid >
+    
   </container>
-</div>
- 
+</div> 
 </template>
 
 <script>
@@ -158,5 +70,9 @@ export default {
   transform: scale(1.1);
 }
 
-
+@media (max-width: 425px) {
+  .grid-container {
+    width: 100%
+  }
+}
 </style>

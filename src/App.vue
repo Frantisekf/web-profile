@@ -17,5 +17,11 @@ export default {
 
 <style scoped lang="scss"> 
   @import "assets/scss/main";
+
+  #app {
+  margin-left:auto;
+  margin-right:auto;
+  }
+
   
 </style>

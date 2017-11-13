@@ -10,11 +10,53 @@ Vue.use(VueFractionGrid, {
   gutter: '26px',
   approach: 'desktop-first',
   breakpoints: {
-    compact: '768px'
+    compact: '768px',
+    'mobile': '360px'
   }
 })
 
 Vue.config.productionTip = false
+
+Vue.directive('sticky', function (el, binding) {
+  let element = el
+  let active = false
+  let stickyTop = -80
+  const sticky = () => {
+    if (active) {
+      return
+    }
+
+    element.classList.add('sticky')
+    active = true
+  }
+
+  const reset = () => {
+    if (!active) {
+      return
+    }
+    element.classList.remove('sticky')
+    active = false
+  }
+
+  const check = () => {
+    let offsetTop = el.getBoundingClientRect().top
+    if (offsetTop <= stickyTop) {
+      sticky()
+      return
+    }
+    reset()
+  }
+
+  const listenAction = () => {
+    if (!window.requestAnimationFrame) {
+      return setTimeout(check, 16)
+    }
+
+    window.requestAnimationFrame(check)
+  }
+
+  window.addEventListener('scroll', listenAction)
+})
 
 /* eslint-disable no-new */
 new Vue({

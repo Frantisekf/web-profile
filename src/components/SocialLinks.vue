@@ -1,7 +1,7 @@
 <template>
   <div class="social__links">
-    <ul>
-      <li v-for="link in socialLinks" >
+    <ul class="links">
+      <li class="link" v-for="link in socialLinks" >
         <a :href="link.url" :title="link.name">
           <i :class="'icon-'+link.icon" ></i>
         </a>
@@ -51,12 +51,23 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-    ul {    
-    text-align: center;  
-    
-      li {
-        display: inline-block;      
-        margin-right: 1em;       
-      }
+  .links { 
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    justify-content: center;
+    flex: 0 0 auto ;
+    width: 20% ;
+  }
+
+  .link {
+    flex: 1;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;  
+  
+  
   }
 </style>

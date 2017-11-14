@@ -11,7 +11,7 @@ Vue.use(VueFractionGrid, {
   approach: 'desktop-first',
   breakpoints: {
     compact: '768px',
-    'mobile': '360px'
+    mobile: '360px'
   }
 })
 

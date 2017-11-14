@@ -1,7 +1,7 @@
 <template>
   <div id="navigation" v-sticky>
       <ul class="nav-items">
-          <li class="nav-item"><router-link to="/">PORTFOLIO</router-link></li>        
+          <li class="nav-item"><router-link to="/">TILES</router-link></li>        
           <li class="nav--item"><router-link to="About">ABOUT</router-link></li>
           <li class="nav-item"><router-link to="Contact">CONTACT</router-link></li>                 
       </ul>      
@@ -24,6 +24,8 @@ export default {
   flex-direction: column;
   justify-content: left;
   align-items: left;
+  background-color: transparent;
+  border-bottom: 1px solid black;
 
   li {    
     display: inline;

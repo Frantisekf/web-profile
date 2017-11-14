@@ -1,6 +1,6 @@
 <template>
 <div class="portfolio--wrapper"> 
-  <container style="padding-top: 8em" class="grid-container">    
+  <container  class="grid-container">    
     <grid  vertical="center"  :rwd="{compact: 'stack'}">
       
         <grid-item size='1/3' :rwd="{ compact: '3/3'}">
@@ -49,8 +49,10 @@ export default {
 .portfolio--wrapper{ 
   padding: 0;
   margin: auto; 
+  margin-top: -150px;
+  z-index: 0;
+  top: 0px;  
 }
-
 .portfolio--tab {
   overflow: hidden;
   width: 100%;

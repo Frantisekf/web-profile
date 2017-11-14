@@ -1,7 +1,12 @@
 <template>
   <div id="app">
-    <main-header></main-header>
+    <div id="first">
+    <main-header></main-header> 
+    
+      <img src="/static/img/backgrounds-cubist-02.svg" width="100%" height="auto" />
+      </div>   
     <router-view></router-view>
+    <div id="second"></div>
   </div>
 </template>
 
@@ -18,10 +23,26 @@ export default {
 <style scoped lang="scss"> 
   @import "assets/scss/main";
 
-  #app {
-  margin-left:auto;
-  margin-right:auto;
-  }
+#app {
+  position: relative;
+  height: 100%;
+  background-color: white;
+   
+}
+
+#first {
+  background-image: url('/static/img/background.png'); 
+  width: 100%;
+  height: 800px; 
+  overflow: hidden;
+}
+
+#second {
+  width: 100%;
+  height: 700px;
+  background-color: white;
+}
+
 
   
 </style>
